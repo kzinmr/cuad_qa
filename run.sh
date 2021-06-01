@@ -2,7 +2,7 @@ export SQUAD_DIR=/content/data
 
 python run_qa_beam_search.py \
     --model_name_or_path roberta-base \
-    --train_file data/train_separate_questions.json \
+    --train_file data/train.json \
     --test_file data/test.json \
     --do_train \
     --do_eval \
