@@ -1,6 +1,7 @@
 export SQUAD_DIR=/content/data
 
 python run_qa_beam_search.py \
+    --model_type roberta \
     --model_name_or_path roberta-base \
     --train_file data/train_separate_questions.json \
     --test_file data/test.json \
