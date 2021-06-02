@@ -2,8 +2,7 @@ export SQUAD_DIR=/content/data
 
 python run_qa_beam_search.py \
     --model_name_or_path roberta-base \
-    --train_file data/train.json \
-    --test_file data/test.json \
+    --dataset_name=cuad \
     --do_train \
     --do_eval \
     --version_2_with_negative \
